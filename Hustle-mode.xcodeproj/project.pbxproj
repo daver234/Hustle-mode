@@ -12,6 +12,7 @@
 		55B5DA571F3ED1C800194EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B5DA551F3ED1C800194EF9 /* Main.storyboard */; };
 		55B5DA591F3ED1C800194EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B5DA581F3ED1C800194EF9 /* Assets.xcassets */; };
 		55B5DA5C1F3ED1C800194EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B5DA5A1F3ED1C800194EF9 /* LaunchScreen.storyboard */; };
+		55B5DA661F3FA28D00194EF9 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55B5DA651F3FA28D00194EF9 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		55B5DA581F3ED1C800194EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55B5DA5B1F3ED1C800194EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55B5DA5D1F3ED1C800194EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B5DA651F3FA28D00194EF9 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "hustle-on.wav"; path = "../../../../../Desktop/hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				55B5DA511F3ED1C800194EF9 /* AppDelegate.swift */,
+				55B5DA651F3FA28D00194EF9 /* hustle-on.wav */,
 				55B5DA531F3ED1C800194EF9 /* ViewController.swift */,
 				55B5DA551F3ED1C800194EF9 /* Main.storyboard */,
 				55B5DA581F3ED1C800194EF9 /* Assets.xcassets */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B5DA661F3FA28D00194EF9 /* hustle-on.wav in Resources */,
 				55B5DA5C1F3ED1C800194EF9 /* LaunchScreen.storyboard in Resources */,
 				55B5DA591F3ED1C800194EF9 /* Assets.xcassets in Resources */,
 				55B5DA571F3ED1C800194EF9 /* Main.storyboard in Resources */,
@@ -269,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 64ZMRUDATB;
 				INFOPLIST_FILE = "Hustle-mode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.daverothschild.Hustle-mode";
@@ -282,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 64ZMRUDATB;
 				INFOPLIST_FILE = "Hustle-mode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.daverothschild.Hustle-mode";
